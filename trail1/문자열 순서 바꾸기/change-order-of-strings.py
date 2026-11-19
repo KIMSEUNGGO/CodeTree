@@ -1,5 +1,7 @@
 S = input()
 T = input()
 
-print(T)
+S, T = T, S
+
 print(S)
+print(T)
